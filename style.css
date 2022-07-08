@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    margin: 5px auto ;
+    width: 310px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    height: 100vh;
+}
+.music img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+}
+.header{
+    padding-top: 20px;
+    color:hsl(223, 47%, 23%);
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+.paragraph{
+    padding: 20px 20px 10px 20px;
+    color:hsl(224, 23%, 55%);
+    line-height: 1.5em;
+}
+
+
+.Plan{
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px 10px 15px 10px;
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    width: 100px;
+}
+. music-icon img{
+    margin-left:-10px;
+}
+.par{
+    padding: 5px 0px 0px 10px;
+}
+.sub{
+    color: hsl(223, 36%, 24%);
+    font-weight: 500;
+}
+.price{
+    color: hsl(225, 29%, 55%);
+    margin-top: -20px ;
+}
+a{
+    padding: 25px 0px 10px 40px;
+    color:hsl(245, 75%, 52%);
+    font-weight: 500;
+    margin-top:5px;
+    margin-left:2em;
+    flex:30%;
+    
+}
+a:hover{
+    padding:10px 0px 0px 40px;
+    color:hsl(224, 23%, 55%);
+}
+.change{
+    margin-bottom: -10px;
+}
+.btn1{
+    width: 90%;
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    margin-left: 14px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    color:white;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 90%;
+    text-align: center;
+    margin-left: 14px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    color:white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color:hsl(225, 29%, 55%);
+}
+.btn2:hover{
+    background-color:hsl(225, 100%, 98%);
+}
