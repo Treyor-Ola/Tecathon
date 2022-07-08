@@ -20,7 +20,7 @@ body{
     text-align: center;
     position: relative;
     border-radius: 20px;
-    height: 100vh;
+    min-height: 100vh;
 }
 .music img{
     border-top-left-radius: 20px;
@@ -45,6 +45,7 @@ body{
     padding: 15px 10px 15px 10px;
     display: flex;
     text-align: center;
+    align-items: center;
     margin: 20px;
     border-radius: 10px;
     width: 100px;
